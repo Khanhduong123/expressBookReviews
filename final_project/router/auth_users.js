@@ -4,7 +4,7 @@ let books = require("./booksdb.js");
 const regd_users = express.Router();
 
 let users = [];
-users.push({"username": "user1", "password": "p123"});
+// users.push({"username": "user1", "password": "p123"});
 const isValid = (username)=>{ //returns boolean
     let userswithsamename = users.filter((user)=>{
         return user.username === username
