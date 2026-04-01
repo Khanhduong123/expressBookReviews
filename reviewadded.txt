@@ -1,0 +1,6 @@
+curl -X PUT http://localhost:5000/customer/auth/review/1 \
+     -H "Authorization: Bearer <YOUR_JWT_TOKEN_HERE>" \
+     -H "Content-Type: application/json" \
+     -d '{"review": "This book is a profound exploration of cultural conflict."}'
+
+Review successfully posted

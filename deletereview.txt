@@ -1,0 +1,5 @@
+curl -X DELETE http://localhost:5000/customer/auth/review/1 \
+     -H "Authorization: Bearer <YOUR_JWT_TOKEN_HERE>"
+{
+    "message": "Review not found"
+}
